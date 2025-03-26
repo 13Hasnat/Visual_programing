@@ -1,0 +1,23 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int x, y;
+        double a, b;
+
+        Console.WriteLine("Enter first number:");
+        x = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Enter second number:");
+        y = Convert.ToInt32(Console.ReadLine());
+
+        a = Math.Max(x, y);
+        b = Math.Min(x, y);
+
+        Console.WriteLine("Max: " + a);
+        Console.WriteLine("Min: " + b);
+    }
+}
+
