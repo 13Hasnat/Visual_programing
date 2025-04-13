@@ -1,0 +1,37 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        // Declare a string variable for the user's name
+        string userName;
+
+        // Initialize the userName variable
+        userName = "Hasnat";
+
+        // Declare and initialize an integer variable for user's age
+        int userAge = 19;  // User's age
+
+        // Declare and initialize a float variable for user's height in meters
+        float userHeight = 6.001f;  // User's height in meters
+
+        // Declare a boolean variable for subscription status
+        bool isSubscribed;
+
+        // Initialize the isSubscribed variable
+        isSubscribed = true;
+
+        // Declare and initialize a character variable for user's grade
+        char userGrade = 'A';  // User's grade
+
+        // Output all variable values
+        Console.WriteLine("User Information:");
+        Console.WriteLine("Name: " + userName);            
+        Console.WriteLine("Age: " + userAge);              
+        Console.WriteLine("Height: " + userHeight + " m"); 
+        Console.WriteLine("Subscribed: " + isSubscribed);  
+        Console.WriteLine("Grade: " + userGrade);          
+    }
+}
+s
