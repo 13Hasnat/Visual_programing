@@ -4,34 +4,45 @@ class Program
 {
     static void Main()
     {
-        // Showing max and min values of different data types:
+        // MaxValue int 
+        Console.WriteLine(int.MaxValue);
+        // MinValue int 
+        Console.WriteLine(int.MinValue);
 
-        Console.WriteLine("Max of int: " + int.MaxValue);           // 1
-        Console.WriteLine("Min of sbyte: " + sbyte.MinValue);       // 2
+        // MaxValue short 
+        Console.WriteLine(short.MaxValue);
+        // MinValue short 
+        Console.WriteLine(short.MinValue);
 
-        Console.WriteLine("Max of short: " + short.MaxValue);       // 3
-        Console.WriteLine("Min of short: " + short.MinValue);       // 4
+        // MaxValue long 
+        Console.WriteLine(long.MaxValue);
+        // MinValue long
+        Console.WriteLine(long.MinValue);
 
-        Console.WriteLine("Max of long is: " + long.MaxValue);      // 5
-        Console.WriteLine("Min of long is: " + long.MinValue);      // 6
+        // MaxValue double 
+        Console.WriteLine(double.MaxValue);
+        // MinValue double 
+        Console.WriteLine(double.MinValue);
 
-        Console.WriteLine("Max (double): " + double.MaxValue);      // 7
-        Console.WriteLine("Min (double): " + double.MinValue);      // 8
+        // MaxValue byte 
+        Console.WriteLine(byte.MaxValue);
+        // MinValue byte 
+        Console.WriteLine(byte.MinValue);
 
-        Console.WriteLine("byte → Max: " + byte.MaxValue);          // 9
-        Console.WriteLine("byte → Min: " + byte.MinValue);          // 10
+        // MaxValue decimal 
+        Console.WriteLine(decimal.MaxValue);
+        // MinValue decimal 
+        Console.WriteLine(decimal.MinValue);
 
-        Console.WriteLine("Max decimal: " + decimal.MaxValue);      // 11
-        Console.WriteLine("Min decimal: " + decimal.MinValue);      // 12
+        // MaxValue char 
+        Console.WriteLine(char.MaxValue);
+        // MinValue char 
+        Console.WriteLine(char.MinValue);
 
-        Console.WriteLine("Max char code: " + (int)char.MaxValue);  // 13
-        Console.WriteLine("Min char code: " + (int)char.MinValue);  // 14
-
-        Console.WriteLine("Boolean true value exists");             // 15
-        Console.WriteLine("Boolean false value exists");            // 16
-
-        Console.WriteLine("These are the biggest values the types can hold.");   // 17
-Console.WriteLine("These are the smallest values they can take.");       // 18
-
+        // Boolean values
+        bool isTrue = true;
+        bool isFalse = false;
+        Console.WriteLine(isTrue);   
+        Console.WriteLine(isFalse);  
     }
 }
