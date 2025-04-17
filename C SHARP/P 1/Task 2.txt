@@ -4,27 +4,45 @@ class Program
 {
     static void Main()
     {
+        // MaxValue int 
         Console.WriteLine(int.MaxValue);
+        // MinValue int 
         Console.WriteLine(int.MinValue);
+
+        // MaxValue short 
         Console.WriteLine(short.MaxValue);
+        // MinValue short 
         Console.WriteLine(short.MinValue);
+
+        // MaxValue long 
         Console.WriteLine(long.MaxValue);
+        // MinValue long
         Console.WriteLine(long.MinValue);
+
+        // MaxValue double 
         Console.WriteLine(double.MaxValue);
+        // MinValue double 
         Console.WriteLine(double.MinValue);
+
+        // MaxValue byte 
         Console.WriteLine(byte.MaxValue);
+        // MinValue byte 
         Console.WriteLine(byte.MinValue);
+
+        // MaxValue decimal 
         Console.WriteLine(decimal.MaxValue);
+        // MinValue decimal 
         Console.WriteLine(decimal.MinValue);
+
+        // MaxValue char 
         Console.WriteLine(char.MaxValue);
+        // MinValue char 
         Console.WriteLine(char.MinValue);
 
-        
+        // Boolean values
         bool isTrue = true;
         bool isFalse = false;
         Console.WriteLine(isTrue);   
         Console.WriteLine(isFalse);  
-
-        
     }
 }
