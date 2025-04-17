@@ -4,34 +4,27 @@ class Program
 {
     static void Main()
     {
-        // Showing max and min values of different data types:
+        Console.WriteLine(int.MaxValue);
+        Console.WriteLine(int.MinValue);
+        Console.WriteLine(short.MaxValue);
+        Console.WriteLine(short.MinValue);
+        Console.WriteLine(long.MaxValue);
+        Console.WriteLine(long.MinValue);
+        Console.WriteLine(double.MaxValue);
+        Console.WriteLine(double.MinValue);
+        Console.WriteLine(byte.MaxValue);
+        Console.WriteLine(byte.MinValue);
+        Console.WriteLine(decimal.MaxValue);
+        Console.WriteLine(decimal.MinValue);
+        Console.WriteLine(char.MaxValue);
+        Console.WriteLine(char.MinValue);
 
-        Console.WriteLine("Max of int: " + int.MaxValue);           // 1
-        Console.WriteLine("Min of sbyte: " + sbyte.MinValue);       // 2
+        
+        bool isTrue = true;
+        bool isFalse = false;
+        Console.WriteLine(isTrue);   
+        Console.WriteLine(isFalse);  
 
-        Console.WriteLine("Max of short: " + short.MaxValue);       // 3
-        Console.WriteLine("Min of short: " + short.MinValue);       // 4
-
-        Console.WriteLine("Max of long is: " + long.MaxValue);      // 5
-        Console.WriteLine("Min of long is: " + long.MinValue);      // 6
-
-        Console.WriteLine("Max (double): " + double.MaxValue);      // 7
-        Console.WriteLine("Min (double): " + double.MinValue);      // 8
-
-        Console.WriteLine("byte → Max: " + byte.MaxValue);          // 9
-        Console.WriteLine("byte → Min: " + byte.MinValue);          // 10
-
-        Console.WriteLine("Max decimal: " + decimal.MaxValue);      // 11
-        Console.WriteLine("Min decimal: " + decimal.MinValue);      // 12
-
-        Console.WriteLine("Max char code: " + (int)char.MaxValue);  // 13
-        Console.WriteLine("Min char code: " + (int)char.MinValue);  // 14
-
-        Console.WriteLine("Boolean true value exists");             // 15
-        Console.WriteLine("Boolean false value exists");            // 16
-
-        Console.WriteLine("These are the biggest values the types can hold.");   // 17
-Console.WriteLine("These are the smallest values they can take.");       // 18
-
+        
     }
 }
