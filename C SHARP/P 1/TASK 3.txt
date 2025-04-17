@@ -1,0 +1,38 @@
+using System;
+
+namespace GlobalAndLocalExample
+{
+    class Program
+    {
+        //  Global Variables
+        static int PersonAge = 56;
+        static double PersonRollno = 42;
+        static string PersonName = "HASNAT";
+
+        static void Main(string[] args)
+        {
+            // Printing Global Variables
+            Console.WriteLine(" Global Variables ");
+            Console.WriteLine("PersonAge: " + PersonAge);
+            Console.WriteLine("PersonRollno: " + PersonRollno);
+            Console.WriteLine("PersonName: " + PersonName);
+
+            // Call method that uses Local Variables
+            StudentInfo();
+        }
+
+        static void StudentInfo()
+        {
+            //  Local Variables 
+            string studentName = "HASNAT";
+            int studentRollno = 50;
+            double studentId = 2045;
+
+            // Printing Local Variables
+            Console.WriteLine("\nLocal Variables ");
+            Console.WriteLine("StudentName: " + studentName);
+            Console.WriteLine("StudentId: " + studentId);
+            Console.WriteLine("StudentRollno: " + studentRollno);
+        }
+    }
+}
